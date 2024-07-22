@@ -58,7 +58,54 @@ public class Main {
             i++;
         }
 
+        System.out.println("\n--------------------");
 
+//Task 6: Write a program where you create an integer array of 5 numbers. Loop through the array and
+// assign the value of the loop control variable multiplied by 2 to the corresponding index in the array.
+        int[] thing = {12, 5, 42, 53, 9};
+
+        for (int j = 0; j < thing.length; j++) {
+
+            thing[j] = thing[j] * 2;
+
+            System.out.println(thing[j]);
+        }
+
+//
+//Task 7: Write a program where you create an array of 5 elements. Loop through the array and print the
+// value of each element, except for the middle (index 2) element.
+
+        int [] index = {2, 4, 6, 8, 10};
+
+        for (int j = 0; j < ; j++) {
+            
+        }
+
+//
+//Task 8: Write a program that creates a String array of 5 elements and swaps the first element with
+// the middle element without creating a new array.
+//        String[] temp  =  {"dog", "cat", "bat", "frog", "lion"};
+//        arr[0] = arr[2];
+//        arr[2] = temp;
+//        for (int j = 0; j < temp.length; j++) {
+//            System.out.println();
+//
+//        }
+
+        //
+//Task 9:
+//Write a program to sort the following int array in ascending order: {4, 2, 9, 13, 1, 0}. Print the array
+// in ascending order, and print the smallest and the largest element of the array. The output will look
+// like the following:
+//Array in ascending order: 0, 1, 2, 4, 9, 13
+//The smallest number is 0
+//The biggest number is 13
+//
+// Task 10: Create an array that includes an integer, 3 strings, and 1 double. Print the array.
+//
+// Task 11: Write some Java code that asks the user how many favorite things they have. Based on
+// their answer, you should create a String array of the correct size. Then ask the user to enter the
+// things and store them in the array you created. Finally, print out the contents of the array.
 
     }
 }
